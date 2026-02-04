@@ -1,12 +1,2 @@
 #!/bin/bash
 grep -A 3 "root" /etc/passwd
-chmod u+x 1-whatsnext
-git add 1-whatsnext
-git commit -m "Fix 1-whatsnext"
-git push origin main
-cd ~/set-se-103/advanced-shell-practice
-nano 1-whatsnext
-#!/bin/bash
-grep -A 3 "root" /etc/passwd
-#!/bin/bash
-grep -A 3 "^root:x:" /etc/passwd
